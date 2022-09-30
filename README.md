@@ -5,8 +5,8 @@
  ## Objetivo 
  - O objetivo desse trabalho foi construir um sistema que viza automatizar a coleta de dados. Os mesmos são gerados a partir de um hidrômetro inteligente, que enviará determinadas informações para o nosso servidor.
  ## Descrição
- -- Esse sistema foi desenvolvido baseando-se na arquitetura Cliente-Servidor.
-    -- Foi realizada a implementação manual de uma api rest utilizando python e sockets. Que fazia o tratamento de requisições http, recebendo e enviando dados especificos.
+ - Esse sistema foi desenvolvido baseando-se na arquitetura Cliente-Servidor.
+    - Foi realizada a implementação manual de uma api rest utilizando python e sockets. Que fazia o tratamento de requisições http, recebendo e enviando dados especificos.
     
  ## Sobre as Interfaces
  * A interface do cliente deve permitir:

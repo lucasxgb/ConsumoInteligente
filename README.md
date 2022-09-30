@@ -3,9 +3,12 @@
  
  
  ## Objetivo 
- - O objetivo desse trabalho é construir um sistema de controle de redes, onde um usuário poderia verificar dados do seu Hidrômetro remotamente, bastando estar conectado
- 
- ## 
+ - O objetivo desse trabalho foi construir um sistema que viza automatizar a coleta de dados. Os mesmos são gerados a partir de um hidrômetro inteligente, que enviará determinadas informações para o nosso servidor.
+ ## Descrição
+ -- Esse sistema foi desenvolvido baseando-se na arquitetura Cliente-Servidor.
+    -- Foi realizada a implementação manual de uma api rest utilizando python e sockets. Que fazia o tratamento de requisições http, recebendo e enviando dados especificos.
+    
+ ## Sobre as Interfaces
  * A interface do cliente deve permitir:
    * Vizualização do consumo feito de cada cliente.
    * Gerar a fatura a ser paga.
@@ -19,5 +22,9 @@
 
 
  ## Conclusão e Resultados:
- - Pode-se concluir que o desenvolvimento do trabalho foi bem sucedido.
- - Alguns pontos do sistema podem receber melhorias em próximas atualizações.
+ - O trabalho foi desenvolvido e entregue entre 23/08 e 29/09 de 2022. Foi muito interessante o trabalho com sockets, pois, era algo que nunca tinha desenvolvido, o tratamento das requisições http também foi muito interessante, pois, podemos ver como um servidor trata das requisições.
+ - Alguns pontos não foram totalmente concluidos e podem ser melhorados em próximas versões, são eles:
+   - Uso do docker e portainer.
+   - Respostas das requisições do Insominia. 
+   - Verificar Vazamento na rede.
+   - Log de vazamentos.

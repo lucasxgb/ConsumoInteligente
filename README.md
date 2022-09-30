@@ -13,7 +13,7 @@
    * Usuários do serviço podem acessar o sistema de forma online para acompanhar o 
      consumo da água, com datas/horários específicos do consumo e o total acumulado.
  ##  
- * A interface do Administrador deve permitir:
+ * A interface do administrador deve permitir:
    *  O administrador poderá cortar o fornecimento de água da residência caso o usuário possua alguma conta em aberto.
    *  Caso o usuário quite o débito, o sistema deve liberar o fornecimento de água imediatamente.
 
